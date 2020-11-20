@@ -1,0 +1,141 @@
+:root {
+    --font-raleway: "Raleway", sans-serif;
+    --font-opensans: "Open Sans", sans-serif;
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: var(--font-opensans);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.header_container {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: silver;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: var(--font-raleway);
+    color: var(--color-primary);
+    margin: 16px 136px;
+
+
+}
+.header_nav {
+    display: flex;
+}
+
+.nav_link {
+    font-family: var(--font-opensans);
+    color: var(--color-grey);
+    padding: 28px 18px 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 0.1875rem;
+
+}
+
+.nav_link:hover {
+    color: var(--color-grey);
+    border-color: var(--color-primary);
+
+}
+.nav_element {
+
+    padding: 0 26px;
+
+}
+.nav_element:last-child {
+
+    padding-right: 0;
+
+}
+
+.opening {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.opening_container {
+    margin-top: 132px;
+    text-align: center;
+}
+
+.opening_title {
+    font-size: 49px;
+    font-family: var(--font-raleway);
+    color: var(--color-black);
+}
+
+.opening_text {
+    margin-top: 20px;
+    margin-bottom: 38px;
+    font-size: 16px;
+    font-family: var(--font-opensans);
+    color: var(--color-black);
+
+
+}
+
+.opening_background {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: var(--button-radius);
+    border: none;
+}
+
+
+.btn--primary {
+
+    background-color: var(--color-primary);
+    border-radius: var(--button-radius);
+    box-shadow: 3px 10px 14px var(--color-primary-shadow);
+
+}
+
+
+.btn--large {
+    padding: 22px 155px;
+}
+
